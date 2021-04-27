@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ApiCatalogoJogos</name>
+    </assembly>
+    <members>
+        <member name="M:ApiCatalogoJogos.Controllers.V1.JogosController.InserirJogo(ApiCatalogoJogos.InputModel.JogoInputModel)">
+            <summary>
+            Post para inserir novo jogo
+            </summary>
+            <param name="jogoModel"> Model do jogo</param>
+            <returns>O jogo cadastrado</returns>
+        </member>
+    </members>
+</doc>
