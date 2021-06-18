@@ -97,7 +97,7 @@ namespace ApiCatalogoJogos.Repositorio
 
         public async Task Inserir(Jogo jogo)
         {
-            var comando = $"insert Jogos (Id, Nome, Produtora, Preco) values ('{jogo.Id}', '{jogo.Nome}', '{jogo.Produtora}', {jogo.Preco.ToString().Replace(",", ".")})";
+            var comando = $"insert Jogos (Id, Nome, Produtora, Preco, AnoLancamento) values ('{jogo.Id}', '{jogo.Nome}', '{jogo.Produtora}', {jogo.Preco.ToString().Replace(",", ".")}, '{jogo.AnoLancamento}')";
 
             await sqlConnection.OpenAsync();
             SqlCommand sqlCommand = new SqlCommand(comando, sqlConnection);

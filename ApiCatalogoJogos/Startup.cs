@@ -1,3 +1,4 @@
+using ApiCatalogoJogos.Middleware;
 using ApiCatalogoJogos.Repositorio;
 using ApiCatalogoJogos.Services;
 using Microsoft.AspNetCore.Builder;
